@@ -74,6 +74,20 @@ I'll be choosing the following metrics as my invariant metrics
 
 - **Number of user-ids** (# of users who enroll in the free trial). Irrespective of our change this metrics should not decrease below a particular threshold. If this metric decreases below a particular threshold, it shows that the changes is doing more harm than good and hence, the change should not be implemented and in some case the experiment should be stopped mid-way
 
+#### 4.2.4 Updated Hypothesis
+
+- H0: Gross conversion (Control) = Gross conversion (Treatment)
+
+  HA: Gross conversion (Control) > Gross conversion (Treatment)
+  
+- H0: Retention (Control) = Retention (Treatment)
+
+  HA: Retention (Control) < Retention (Treatment)
+  
+- H0: Net Conversion (Control) = Net Conversion (Treatment)
+
+  HA: Net Conversion (Control) < Net Conversion (Treatment)
+
 
 ### 4.3 Measuring Variability
 
