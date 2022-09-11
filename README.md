@@ -22,6 +22,7 @@ The hypothesis was that this might set clearer expectations for students upfront
 
 ## Experiment Design
 
+### A. Hypothesis Definition
 Null hypothesis: Setting clear expectations before enrolling will not reduce the number of furstrated students 
 
 Alternate hypothesis: Setting clear expectations before enrolling will reduce the number of furstrated students, thereby improving student experience
@@ -39,3 +40,8 @@ Formulating in mathematical terms:
   3. H0: the change has no effect on probability of students dropping during the free trial.
   
      HA: the change has an effect on probability of students dropping during the free trial
+     
+### B. Metric Definition
+
+#### a. Invariant Metrics
+
