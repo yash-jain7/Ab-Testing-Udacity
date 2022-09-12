@@ -121,7 +121,7 @@ I used this calculator to get the sample size
 
 
 
-<img src = "gross_comversion.png">
+<img src = "gross_conversion.png">
 
 
 #### 4.4.2 Retention
