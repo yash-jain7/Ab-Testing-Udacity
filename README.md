@@ -144,7 +144,7 @@ I used this calculator to get the sample size
 - **Total user-ids that start free trial:** 78230 / 0.20625 = 379,297 
 - **Total unique page views:** 379,297/ (3200/40000) = 4,741,213
 
-<img src = "retention.png>
+<img src = "retention.png">
 
 #### 4.4.3 Net Conversion
 
