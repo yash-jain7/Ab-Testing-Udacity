@@ -99,4 +99,73 @@ Here, we calculate the variability for each of our evaluation metric analyticall
 |Retention | 0.0549|
 |Net conversion | 0.0156|
 
+### 4.4 Sizing the experiment
+
+#### 4.4.1 Gross Conversion
+
+Given
+- **Baseline conversion rate:** 0.2062
+- **Minimum detectable effect:** 0.01
+- **Alpha:** 0.05
+- **Beta:** 0.2
+- **Total number of user-ids to enroll in free-trial:** 3200
+- **Total number of unique cookies to view course overview page:** 40000
+- **Enrollments/page view:** 3200/40000: 0.08
+
+I used this calculator to get the sample size
+
+- **Total groups:** 2
+- **Sample size:** 25,835
+- **Total Sample Size:** 51,670 enrollments
+- **Total unique page views:** 51670 / 0.08 = 645,875
+
+
+
+<img src = "gross_comversion.png">
+
+
+#### 4.4.2 Retention
+
+Given 
+
+- **Baseline conversion rate:** 0.2062
+- **Minimum detectable effect:** 0.01
+- **Alpha:** 0.05
+- **Beta:** 0.2
+- **Number of user-ids enrolled past 14-day free trial:** 660
+- **Number of user-ids that start free-trial:** 3200
+- **user-ids enrolled past 14-day free trial/user-id that start free-trial:** 660/3200= 0.20625
+
+I used this calculator to get the sample size
+
+- **Total groups:** 2
+- **Sample size:** 39,115
+- **Total Sample Size:** 78,230 enrollments
+- **Total user-ids that start free trial:** 78230 / 0.20625 = 379,297 
+- **Total unique page views:** 379,297/ (3200/40000) = 4,741,213
+
+<img src = "retention.png>
+
+#### 4.4.3 Net Conversion
+
+Given 
+
+- **Baseline conversion rate:** 0.1093
+- **Minimum detectable effect:** 0.075
+- **Alpha:** 0.05
+- **Beta:** 0.2
+- **Number of user-ids enrolled past 14-day free trial:** 660
+- **Number of unique cookies that click "Start Free Trial":** 3200
+- **Number of unique course-view pages:** 40,000
+
+
+I used this calculator to get the sample size
+
+- **Total groups:** 2
+- **Sample size:** 27,413
+- **Total Sample Size:** 54,826
+- **Total unique page views:** 54826/ (3200/40000) = 685,325
+
+<img src = "net_conversion.png">
+
 
