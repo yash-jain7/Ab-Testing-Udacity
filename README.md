@@ -173,3 +173,8 @@ Therefore, in order to test for all three metrics, we would require the maximum 
 
 ### 4.5 Experiment duration and exposure
 
+For retention if we use 100% of our traffic of 40000 unique cookies to view course overview page, we'll take 119 days. This seems to be too long for a A/B experiment so we will drop this metric and focus on gross conversion and net conversion.
+
+For gross conversion if we use 100% of our traffic of 40000 unique cookies to view course overview page, it'll take take us 17 days. However, since the trial ends after 14 days we could look at 28 days where we will have to divert 57% of the traffic. 
+
+We could divert 57% of traffic for 28 days for both gross conversion and net conversion. 
