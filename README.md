@@ -170,3 +170,6 @@ I used this calculator to get the sample size
 
 
 Therefore, in order to test for all three metrics, we would require the maximum number of pageviews, 4741213.
+
+### 4.5 Experiment duration and exposure
+
