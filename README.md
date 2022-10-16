@@ -180,9 +180,9 @@ For gross conversion if we use 100% of our traffic of 40000 unique cookies to vi
 We could divert 57% of traffic for 28 days for both gross conversion and net conversion. 
 
 
-## 4. Experiment Analysis
+## 5. Experiment Analysis
 
-### 4.1 Sanity checks
+### 5.1 Sanity checks
 
 Performing sanity checks for the metrics we chose as invariant metrics earlier in the article. We get,
 
@@ -192,3 +192,25 @@ Performing sanity checks for the metrics we chose as invariant metrics earlier i
 |Pageviews      |0.5       |0.50064       |0.49946       |0.501819       |1       |
 |Clicks      |0.5       |0.500467       |0.496352       |0.504583       |1       |
 |CTP      |0       |-0.000057       |-0.001352       |0.001239      |1       |
+
+All the sanity checks look good
+
+### 5.2 Checking for statistical significance 
+
+Calculations in .ipynb file
+
+|Evaluation metrics    |dmin    |Observed    |lower_bound    |upper_bound|Statistical and Practical Significance|
+| ---------- | :-----------:  |  :-----------:  |  :-----------:  |  :-----------:  |  :-----------:  |
+|Gross Conversion      |0.0100   |-0.020555       |-0.010399       |0.010399       |1       |
+|Net Conversion      |0.0075   |-0.004874       |-0.008878       |0.008878       |0       |
+
+As we can see, Net Conversion is not a statistically significant metric
+
+### 5.3 Sign tests
+
+| Metric | pvalue | pvalue < 0.05 |
+| ---------- | :-----------:  | :-----------:  | 
+|Gross Conversion | 0.002599| 1 |
+|Net conversion | 0.677639| 0 |
+
+From the sign test as well, we can see that Gross Conversion is statistically significant evaluation metric
