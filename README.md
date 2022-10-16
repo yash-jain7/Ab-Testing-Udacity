@@ -110,7 +110,7 @@ Given
 - **Beta:** 0.2
 - **Total number of user-ids to enroll in free-trial:** 3200
 - **Total number of unique cookies to view course overview page:** 40000
-- **Enrollments/page view:** 3200/40000: 0.08
+- **unique cookies to click "Start free trial"/unique cookies to view page:** 3200/40000: 0.08
 
 I used this calculator to get the sample size
 
