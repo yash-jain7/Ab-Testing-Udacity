@@ -182,7 +182,7 @@ We could divert 57% of traffic for 28 days for both gross conversion and net con
 
 ## 5. Experiment Analysis
 
-### 5.1 Sanity checks
+#### 5.1 Sanity checks
 
 Performing sanity checks for the metrics we chose as invariant metrics earlier in the article. We get,
 
@@ -195,7 +195,7 @@ Performing sanity checks for the metrics we chose as invariant metrics earlier i
 
 All the sanity checks look good
 
-### 5.2 Checking for statistical significance 
+#### 5.2 Checking for statistical significance 
 
 Calculations in .ipynb file
 
@@ -206,7 +206,7 @@ Calculations in .ipynb file
 
 As we can see, Net Conversion is not a statistically significant metric
 
-### 5.3 Sign tests
+#### 5.3 Sign tests
 
 | Metric | pvalue | pvalue < 0.05 |
 | ---------- | :-----------:  | :-----------:  | 
