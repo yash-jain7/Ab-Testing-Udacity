@@ -128,7 +128,7 @@ I used this calculator to get the sample size
 
 Given 
 
-- **Baseline conversion rate:** 0.2062
+- **Baseline conversion rate:** 0.53
 - **Minimum detectable effect:** 0.01
 - **Alpha:** 0.05
 - **Beta:** 0.2
