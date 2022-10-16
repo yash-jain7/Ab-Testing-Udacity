@@ -187,4 +187,8 @@ We could divert 57% of traffic for 28 days for both gross conversion and net con
 Performing sanity checks for the metrics we chose as invariant metrics earlier in the article. We get,
 
 
-| YJ | Age |
+|Invariant metrics    |Expected    |Observed    |lower_bound    |upper_bound|test_pass|
+| ---------- | :-----------:  |  :-----------:  |  :-----------:  |  :-----------:  |  :-----------:  |
+|Pageviews      |0.5       |0.50064       |0.49946       |0.501819       |1       |
+|Clicks      |0.5       |0.500467       |0.496352       |0.504583       |1       |
+|CTP      |0       |-0.000057       |-0.001352       |0.001239      |1       |
